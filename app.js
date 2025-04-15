@@ -1,6 +1,5 @@
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-const times = ["9AM", "11AM", "1PM"]; // Reduced to 3 time slots
-
+const times = ["9AM", "11AM", "1PM"]; 
 function App() {
   const [timetable, setTimetable] = React.useState(
     Array(days.length).fill(null).map(() => Array(times.length).fill(""))
